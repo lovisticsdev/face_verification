@@ -1,0 +1,35 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments and local config
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Local datasets and large serialized artifacts
+
+!model.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Generated training logs and temporary files
+*.log
+.tmp/
+tmp/
+
+# IDE and OS metadata
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
